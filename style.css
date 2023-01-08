@@ -64,6 +64,7 @@ main img.main-img {
 
 }
 
+
 main div.main-text {
     position: relative;
     float: right;
@@ -104,6 +105,7 @@ main div.main-second {
     top: 300px;
     left: 250px;
     list-style: none;
+
 
 }
 
@@ -157,4 +159,32 @@ main div ul.main-ul5 {
 main div ul.main-ul5 li {
     padding-left: 160px;
 
+}
+
+
+div.main-third {
+    display: flex;
+}
+
+div.main-third img {
+    position: absolute;
+    float: right;
+    padding: 100px 800px;
+}
+
+
+div.main-third h1 {
+
+    width: 10px;
+    padding-top: 100px;
+    padding-left: 300px;
+    color: rgb(243, 33, 26);
+}
+
+
+div.main-third ul.third-ul {
+    list-style: none;
+    padding-top: 280px;
+    font-weight: 400;
+    font-size: 18px;
 }
