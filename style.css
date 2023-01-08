@@ -86,14 +86,75 @@ main div p.main-para {
     line-height: 26px;
 }
 
-ul.main-ul {
+ul.main-ul1 {
     position: absolute;
     list-style: none;
     line-height: 26px;
+    list-style: none;
 
 }
 
 ul li span {
     color: rgb(132, 194, 41);
     font-size: 20px;
+}
+
+main div.main-second {
+    position: relative;
+    top: 300px;
+    left: 250px;
+    list-style: none;
+
+}
+
+main div ul li.main-li {
+    text-align: center;
+}
+
+main div ul.main-ul3 {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 10px;
+
+}
+
+main div ul.main-ul3 li {
+    padding-left: 220px;
+}
+
+main div ul.main-ul3 li img {
+    width: 100px;
+    height: 100px;
+}
+
+main div ul.main-ul4 {
+    display: flex;
+    list-style: none;
+    padding-top: 90px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+main div ul.main-ul4 li {
+    padding-left: 120px;
+}
+
+main div ul li.main-li0 {
+    padding-left: 140px;
+}
+
+
+
+main div ul.main-ul5 {
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+main div ul.main-ul5 li {
+    padding-left: 160px;
+
 }
