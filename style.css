@@ -4,17 +4,24 @@
     margin-top: 0px;
 }
 
+/*first page
+/*settig up background of header section that used banner 2*/
+
 header {
     background-image: url(images/banner/banner2.png);
+    /*background image repeated*/
     height: 809px;
     width: 100%;
     float: right;
+    /*sets the initial image to right so that repeated background can cover the left portion*/
     padding-left: 500px;
+    /*this helps to empty the left space*/
 
 
 }
 
 header h1.h1-text {
+    /*first header */
     position: absolute;
     font-size: 65px;
     line-height: 76px;
@@ -29,6 +36,7 @@ header h1.h1-text {
 
 header p.p-text {
     position: absolute;
+    /*header sections paragraph*/
     font-style: normal;
     font-weight: 400;
     left: 200px;
@@ -40,6 +48,7 @@ header p.p-text {
 }
 
 header button.head-btn {
+    /*contact us button*/
     position: absolute;
     width: 160px;
     height: 64px;
@@ -54,6 +63,9 @@ header button.head-btn {
 
 }
 
+
+/*starting second page with  <main> tag*/
+/*setting up main image person.png */
 main img.main-img {
     float: left;
     position: relative;
@@ -64,13 +76,14 @@ main img.main-img {
 
 }
 
-
+/*2nd page text*/
 main div.main-text {
     position: relative;
     float: right;
     padding: 280px 550px 0px 0px;
 }
 
+/*2nd page header*/
 main div h1.main-h1 {
     font-weight: 700;
     font-size: 40px;
@@ -79,6 +92,7 @@ main div h1.main-h1 {
 
 }
 
+/*2nd page main paragraph*/
 main div p.main-para {
     font-weight: 400;
     font-size: 16px;
@@ -86,6 +100,8 @@ main div p.main-para {
     height: 104px;
     line-height: 26px;
 }
+
+/*2nd page list itens */
 
 ul.main-ul1 {
     position: absolute;
@@ -96,9 +112,12 @@ ul.main-ul1 {
 }
 
 ul li span {
+    /*tickmark color*/
     color: rgb(132, 194, 41);
     font-size: 20px;
 }
+
+/*3rd section starts*/
 
 main div.main-second {
     position: relative;
@@ -109,9 +128,23 @@ main div.main-second {
 
 }
 
+
+/*3rd section heading*/
+
+.main-second-h1 {
+    position: relative;
+    top: 600px;
+    left: 150px;
+}
+
+
+
+
 main div ul li.main-li {
     text-align: center;
 }
+
+/*styling the image in list*/
 
 main div ul.main-ul3 {
     display: flex;
@@ -120,6 +153,8 @@ main div ul.main-ul3 {
     height: 10px;
 
 }
+
+
 
 main div ul.main-ul3 li {
     padding-left: 220px;
@@ -130,6 +165,7 @@ main div ul.main-ul3 li img {
     height: 100px;
 }
 
+/*styling the texts after the image*/
 main div ul.main-ul4 {
     display: flex;
     list-style: none;
@@ -161,11 +197,12 @@ main div ul.main-ul5 li {
 
 }
 
-
+/*4th section starts*/
 div.main-third {
     display: flex;
 
 }
+
 
 div.main-third img.third-img {
     position: absolute;
@@ -207,6 +244,7 @@ h1.fourth-h1 {
     padding-left: 250px;
 }
 
+/*blending image with the gradient*/
 .blend-image {
     position: relative;
     top: 20px;
@@ -227,6 +265,7 @@ h1.fifth-h1 {
     width: 400px;
 }
 
+/*call now button*/
 .button-2 {
     position: absolute;
     font-size: 20px;
@@ -241,6 +280,8 @@ h1.fifth-h1 {
 
 }
 
+
+/*footer left*/
 footer {
     position: relative;
     display: flex;
@@ -297,6 +338,7 @@ footer p {
     margin-left: 280px;
 }
 
+/*footer right*/
 .footer-2 {
     float: right;
     padding-left: 400px;
@@ -314,7 +356,7 @@ input {
 }
 
 
-
+/*subscribe button*/
 .footer-btn {
     margin-top: 10px;
     display: block;
